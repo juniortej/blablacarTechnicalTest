@@ -6,7 +6,7 @@ Pdf test: https://drive.google.com/file/d/1l3tjP_RlxRGzxXaCuZ6T60r2a2imUkl1/view
 
 ## Prerequise
 
-AT least:
+At least:
 
 - Java 12 
 - Maven 3.6.0
