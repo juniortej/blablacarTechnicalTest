@@ -30,7 +30,7 @@ public class Application {
                 if (strPath.startsWith("classpath:")) {
                     systemResource = ClassLoader.getSystemResource(strPath.substring(10));
                 } else {
-                    systemResource = new File(strPath).toURL();
+                    systemResource = new File(strPath).toURI().toURL();
                 }
             } catch (MalformedURLException ex) {
                 throw new SimulationException("Couldn't find file or path : " + strPath);
